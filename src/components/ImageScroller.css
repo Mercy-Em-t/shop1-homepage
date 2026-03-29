@@ -1,0 +1,33 @@
+.image-scroller {
+  padding: 16px;
+  background: #fafafa;
+}
+
+.image-scroller__track {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-top: 12px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.image-scroller__track::-webkit-scrollbar {
+  display: none;
+}
+
+.image-scroller__item {
+  flex-shrink: 0;
+}
+
+.image-scroller__thumb {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  background: #e8f5e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}

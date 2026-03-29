@@ -1,0 +1,49 @@
+.how-it-works {
+  padding: 16px;
+  background: #f1f8e9;
+}
+
+.how-it-works__steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 16px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+}
+
+.step__number {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #2e7d32;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step__text {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin: 0;
+  padding-top: 7px;
+}
+
+.step__connector {
+  position: absolute;
+  left: 17px;
+  top: 36px;
+  width: 2px;
+  height: 20px;
+  background: #c8e6c9;
+}
