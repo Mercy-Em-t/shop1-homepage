@@ -1,0 +1,40 @@
+.menu-page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.menu-page__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.menu-page__back {
+  color: #2e7d32;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.menu-page__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.menu-page__subtitle {
+  font-size: 0.95rem;
+  color: #2e7d32;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.menu-page__placeholder {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  padding: 40px 0;
+}

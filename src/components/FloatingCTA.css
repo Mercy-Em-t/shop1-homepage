@@ -1,0 +1,25 @@
+.floating-cta {
+  position: fixed;
+  bottom: 20px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 50px;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+  font-size: 0.85rem;
+  font-weight: 700;
+  z-index: 1000;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.floating-cta:hover,
+.floating-cta:focus {
+  background: #128c7e;
+  box-shadow: 0 6px 20px rgba(18, 140, 126, 0.4);
+  outline: none;
+}
